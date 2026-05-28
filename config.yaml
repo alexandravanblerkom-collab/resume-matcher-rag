@@ -1,0 +1,16 @@
+credentials:
+  usernames:
+    alex:
+      email: alex@example.com
+      name: Alex
+      password: $2b$12$6/7.k1R3r0Cj1.H9/1K1.e0g43E.gO.L1x99L95N8r80h59Q2z6wG # This is the secure hash for "password123"
+    guest_user:
+      email: guest@example.com
+      name: Guest User
+      password: $2b$12$6/7.k1R3r0Cj1.H9/1K1.e0g43E.gO.L1x99L95N8r80h59Q2z6wG # This is the secure hash for "password123"
+cookie:
+  expiry_days: 30
+  key: signature_key_for_resume_app
+  name: resume_app_cookie
+preauthorized:
+  emails: []
